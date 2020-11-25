@@ -34,9 +34,25 @@ This section will focus on linking through to my social media profiles so people
 
 ## Wireframes
 
-I've chosen to use figma to make some basic wireframes so that coding can be a much easier process. For the wireframes they show each specific section of the portfolio site with a mobile, tablet and desktop.
+I chose to use Miro to make some basic wireframes so that coding can be a much easier process. For the wireframes they show each specific section of the portfolio site with a mobile, tablet and desktop.
 
-I chose to try out Miro to make my wireframes. The workspace is [here](https://miro.com/app/board/o9J_ld3pzAU=/).
+The Miro workspace is available [here](https://miro.com/app/board/o9J_ld3pzAU=/).
+
+### Homepage
+
+![Home](./wireframes/home.png)
+
+### About Me
+
+![About Me](./wireframes/about-me.png)
+
+### Portfolio
+
+![Portfolio](./wireframes/portfolio.png)
+
+### Contact Me
+
+![Contact Me](./wireframes/contact-me.png)
 
 ## Tech Stack
 
