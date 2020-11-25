@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+# Portfolio Website V2
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Author
 
-## Available Scripts
+Ashley Smith - [GitHub](https://github.com/Ash-Eileen) | [Portfolio](https://ashleysmith.netlify.app/) | [Twitter](https://twitter.com/Ash413_) | [LinkedIn](https://ashleysmith.netlify.app/contact.html)
 
-In the project directory, you can run:
+## Purpose
 
-### `yarn start`
+This is new, polished version of my porfolio website to replace my original portfolio which was made using only HTML and CSS. I've decided to make a new portfolio as I've developed new skills and it gives me an excellent chance to further my skills in React and to learn more about Typescript.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+For this version of my portfolio I've chosen to use a single page style layout with fixed menu that can be used to traverse the sections of the page. I'm keen to make the site as accessible as possible and to use a mobile first approach to make sure it is user-friendly.
 
-### `yarn test`
+### Navigation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To navigate the site I've chosen a hamburger menu icon for mobile and tablet and a sticky top menu for desktop. On mobile I've chosen a single column style for information and for tablet and desktop elected to display further expand the content on the page.
 
-### `yarn build`
+### Homepage/Index
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This is a single line very brief introduction to say who I am and what my role is.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### About Page
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To try and showcase a little about myself to try and let potential employers know a little about who I am. This should demonstrate a bit about why I'm becoming a developer and my past experience. I also want to include some information about my hobbies and interests.
 
-### `yarn eject`
+### Portfolio
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Since this is a portfolio site this where I'll be showcasing some of my previous projects. I'll be highlighting some projects that were large or that I'm proud of with a quick description of what they are, the tech stack used and a link to the GitHub repository.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Contact
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+This section will focus on linking through to my social media profiles so people know how to get in touch with me.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Wireframes
 
-## Learn More
+I've chosen to use figma to make some basic wireframes so that coding can be a much easier process. For the wireframes they show each specific section of the portfolio site with a mobile, tablet and desktop.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+I chose to try out Miro to make my wireframes. The workspace is [here](https://miro.com/app/board/o9J_ld3pzAU=/).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+- React
+- Typescript
