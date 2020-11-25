@@ -45,3 +45,23 @@ I chose to try out Miro to make my wireframes. The workspace is [here](https://m
 - JavaScript
 - React
 - Typescript
+
+## Design
+
+Colour Scheme:
+
+- #0CA789 for headings
+- #DA0063 for buttons and icons
+- #404040 for text
+
+Font options:
+
+- Inconsolata & Montserrat (heading & body)
+- Droid Sans (body)
+- Lato (body)
+- Pontano Sans (body)
+- Flamenco & Asap (headings & body)
+- Proza Libre & Open Sans (headings & body)
+- Rubik & Karla (headings & body)
+- Quattrocento & Quattrocento Sans (headings & body)
+- Inconsolata & Karla (headings & body)
