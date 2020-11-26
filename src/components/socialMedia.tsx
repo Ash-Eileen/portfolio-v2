@@ -1,4 +1,4 @@
-export const socialMediaLinks = [
+export const socialMediaLinks: Array<SocialMediaLinks> = [
   {href:`https://twitter.com/Ash_Smith_`, aria:`Twitter`, tag: `fab fa-twitter-square`},
   {href:`https://www.linkedin.com/in/ash-eileen/`, aria:`LinkedIn`, tag: `fab fa-linkedin`},
   {href:`https://github.com/Ash-Eileen`, aria:`GitHub`, tag: `fab fa-github-square`},

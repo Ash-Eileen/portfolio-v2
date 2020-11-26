@@ -1,11 +1,12 @@
 import React from 'react';
 import Home from './Home'
+import AboutMe from './AboutMe'
 
 function App() {
   return (
     <>
-      <h1>Welcome to my site</h1>
       <Home />
+      <AboutMe />
     </>
   );
 }
