@@ -24,7 +24,7 @@ This is a single line very brief introduction to say who I am and what my role i
 
 To try and showcase a little about myself to try and let potential employers know a little about who I am. This should demonstrate a bit about why I'm becoming a developer and my past experience. I also want to include some information about my hobbies and interests.
 
-### Portfolio
+### Portfolio Page
 
 Since this is a portfolio site this where I'll be showcasing some of my previous projects. I'll be highlighting some projects that were large or that I'm proud of with a quick description of what they are, the tech stack used and a link to the GitHub repository.
 
