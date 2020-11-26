@@ -38,6 +38,7 @@ const Home = () => {
             );
           })}
         </div>
+        <button>Get to know me!</button>
       </section>
     </div>
   );
