@@ -1,5 +1,5 @@
 import React from "react";
-import { socialMediaLinks } from "./socialMedia";
+import {socialMediaLinks } from '../socialMedia'
 
 const Home = () => {
   return (

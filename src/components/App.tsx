@@ -1,6 +1,6 @@
 import React from 'react';
-import Home from './Home'
-import AboutMe from './AboutMe'
+import Home from './Home/Home'
+import AboutMe from './AboutMe/AboutMe'
 
 function App() {
   return (
