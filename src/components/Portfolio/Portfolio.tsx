@@ -1,9 +1,11 @@
 import React from 'react'
+import DisplayProjects from './DisplayProjects'
 
-const Portfolio = () => {
+const Portfolio: React.FC = () => {
   return (
     <div>
-      
+      <h2>Things I've made</h2>
+      <DisplayProjects />
     </div>
   )
 }

@@ -3,5 +3,14 @@
 type SocialMediaLinks = {
   href: string,
   aria: string,
-  tag: string
+  icon: string,
+}
+
+type Project = {
+  image: string,
+  codeIcon: string,
+  name: string,
+  platformIcon: string,
+  description: string,
+  link: string,
 }

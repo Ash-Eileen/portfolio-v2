@@ -13,7 +13,7 @@ const DisplaySocials: React.FC = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <i className={link.tag}></i>
+            <i className={link.icon}></i>
           </a>
         );
       })}
