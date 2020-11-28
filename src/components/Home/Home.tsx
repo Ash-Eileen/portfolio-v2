@@ -1,7 +1,7 @@
 import React from "react";
-import {socialMediaLinks } from '../socialMedia'
+import DisplaySocials from '../SocialMedia/DisplaySocials'
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <div>
       <section>
@@ -24,19 +24,7 @@ const Home = () => {
           <br />A web developer!
         </h1>
         <div className="social-logos">
-          {socialMediaLinks.map((link, i) => {
-            return (
-              <a
-                key={i}
-                href={link.href}
-                aria-label={link.aria}
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i className={link.tag}></i>
-              </a>
-            );
-          })}
+          <DisplaySocials />
         </div>
         <button>Get to know me!</button>
       </section>

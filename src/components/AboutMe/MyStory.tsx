@@ -1,6 +1,6 @@
 import React from "react";
 
-const MyStory = () => {
+const MyStory: React.FC = () => {
   return (
     <section>
       <h1>Nice to meet you.</h1>

@@ -3,7 +3,7 @@ import MyStory from './MyStory'
 import Skills from './Skills'
 import Interests from './Interests'
 
-const AboutMe = () => {
+const AboutMe: React.FC = () => {
   return (
     <div>
       <MyStory />
