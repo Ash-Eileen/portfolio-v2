@@ -11,6 +11,6 @@ type Project = {
   codeIcon: string,
   name: string,
   platformIcon: string,
-  description: string,
+  description: JSX.Element,
   link: string,
 }
