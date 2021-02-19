@@ -1,13 +1,13 @@
-import React from 'react'
-import DisplayProjects from './DisplayProjects'
+import React from 'react';
+import DisplayProjects from './DisplayProjects';
 
 const Portfolio: React.FC = () => {
-  return (
-    <div>
-      <h2>Things I've made</h2>
-      <DisplayProjects />
-    </div>
-  )
-}
+	return (
+		<div>
+			<h2>Things I&apo;sve made</h2>
+			<DisplayProjects />
+		</div>
+	);
+};
 
-export default Portfolio
+export default Portfolio;

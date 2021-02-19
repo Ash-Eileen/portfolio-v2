@@ -1,11 +1,11 @@
-import React from 'react'
+import React from 'react';
 
 const ContactMe: React.FC = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+	return (
+		<div>
 
-export default ContactMe
+		</div>
+	);
+};
+
+export default ContactMe;

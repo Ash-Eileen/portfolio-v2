@@ -1,10 +1,10 @@
-import React from 'react'
-import Portfolio from "../components/Portfolio/Portfolio";
+import React from 'react';
+import Portfolio from '../components/Portfolio/Portfolio';
 
 const PortfolioPage: React.FC = () => {
-    return (
-        <Portfolio />
-    )
-}
+	return (
+		<Portfolio />
+	);
+};
 
 export default PortfolioPage;
