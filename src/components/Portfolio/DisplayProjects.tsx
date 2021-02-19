@@ -71,12 +71,36 @@ const DisplayProjects: React.FC = () => {
       Rails documentation and a lot better versed in a lot of the functionality of the framework.</p>,
     },
     {
-      imageSrc: '/charmander.png',
-      link: ``,
-      codeIcon: ``,
-      name: `Express Hackathon`,
-      platformIcon: ``,
-      description: <p></p>,
+      imageSrc: '/caculocation.png',
+      link: `https://github.com/DriftingDev/cactolocation`,
+      codeIcon: `devicon-javascript-plain colored`,
+      name: `Express Hackathon - Caculocation`,
+      platformIcon: `devicon-github-plain`,
+      description: (
+          <p>
+            This a website made using Handlebars, JavaScript, SCSS, Node, Express,
+            Mongoose and MongoDB during a 2.5 day hackathon. The brief was to
+            create a site with full CRUD functionality on any subject. I worked
+            with a partner and we decided to make a site where people could pin
+            locations of succulents for others to take clippings from. The live
+            site can be found{" "}
+            <a
+                href="https://caculocation.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+            >
+              <strong>
+                <u>here</u>
+              </strong>
+            </a>
+            . In the 2.5 days we were able to implement full CRUD functionality,
+            authentication and authorisation, and the integration of a map with
+            geocoding and geolocation using the Mapbox API. This was a lot of fun
+            and it was great to see how much we could accomplish after only two
+            weeks of working with Node and Express and one week working with
+            MongoDB.
+          </p>
+      )
     },
   ];
   return (
