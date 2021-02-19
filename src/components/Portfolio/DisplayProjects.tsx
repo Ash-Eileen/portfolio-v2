@@ -1,14 +1,10 @@
 import React from "react";
-import hangman from "../../images/hangman.gif";
-import charmander from "../../images/charmander.png";
-import portfolio from "../../images/portfolio.png";
-import hackathon from "../../images/hackathon.png";
-import valorantcoach from "../../images/valorantcoach.png";
+import Image from "next/image";
 
 const DisplayProjects: React.FC = () => {
   const projects: Array<Project> = [
     {
-      image: hangman,
+      imageSrc: '/hangman.gif',
       link: `https://github.com/Ash-Eileen/terminal-app`,
       codeIcon: `devicon-ruby-plain colored`,
       name: ` Hangman Terminal App `,
@@ -21,7 +17,7 @@ const DisplayProjects: React.FC = () => {
       there's a single player mode.</p>,
     },
     {
-      image: charmander,
+      imageSrc: "/charmander.png",
       link: `https://codepen.io/Ash-Eileen/pen/MWaEbwW`,
       codeIcon: `devicon-css3-plain colored`,
       name: ` Pixel Charmander `,
@@ -34,7 +30,7 @@ const DisplayProjects: React.FC = () => {
       I might add the second generation starters as well.</p>,
     },
     {
-      image: portfolio,
+      imageSrc: '/portfolio.png',
       link: `https://github.com/Ash-Eileen/portfolio`,
       codeIcon: `devicon-sass-original colored`,
       name: ` Original Portfolio Website `,
@@ -48,7 +44,7 @@ const DisplayProjects: React.FC = () => {
       be able to create something that I think looks pretty good with the limited knowledge I had at the time.</p>,
     },
     {
-      image: hackathon,
+      imageSrc: '/hackathon.png',
       link: `https://github.com/JordonGoodsir/Hackathon`,
       codeIcon: `devicon-javascript-plain colored`,
       name: `API Hackathon`,
@@ -61,7 +57,7 @@ const DisplayProjects: React.FC = () => {
       programs like Postman. I really enjoyed making this project and using it as a learning experience.</p>,
     },
     {
-      image: valorantcoach,
+      imageSrc: '/valorantcoach.png',
       link: `https://github.com/Ash-Eileen/marketplace_project`,
       codeIcon: `devicon-rails-plain-wordmark colored`,
       name: `Two Sided Rails Marketplace - Valorant Coach`,
@@ -75,7 +71,7 @@ const DisplayProjects: React.FC = () => {
       Rails documentation and a lot better versed in a lot of the functionality of the framework.</p>,
     },
     {
-      image: "",
+      imageSrc: '/charmander.png',
       link: ``,
       codeIcon: ``,
       name: `Express Hackathon`,
@@ -88,7 +84,8 @@ const DisplayProjects: React.FC = () => {
       {projects.map((project, i) => {
         return (
           <section key={i}>
-            <img src={project.image} alt={project.name} />
+            <Image src={`${project.imageSrc}`} alt={project.name} width={500}
+                   height={400} />
             <h3>
               <a href={project.link}>
                 <i className={project.codeIcon}></i>

@@ -7,7 +7,7 @@ type SocialMediaLinks = {
 }
 
 type Project = {
-  image: string,
+  imageSrc: string,
   codeIcon: string,
   name: string,
   platformIcon: string,
